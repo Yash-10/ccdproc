@@ -248,9 +248,9 @@ def interpret_bit_flags(bit_flags, flip_bits=None):
 
 def bitfield_to_boolean_mask(bitfield, ignore_flags=0, flip_bits=None,
                              good_mask_value=True, dtype=np.bool_):
-    """
+    r"""
     bitfield_to_boolean_mask(bitfield, ignore_flags=None, flip_bits=None, \
-good_mask_value=True, dtype=numpy.bool\_)
+    good_mask_value=True, dtype=numpy.bool\_)
     Converts an array of bit fields to a boolean (or integer) mask array
     according to a bitmask constructed from the supplied bit flags (see
     ``ignore_flags`` parameter).
